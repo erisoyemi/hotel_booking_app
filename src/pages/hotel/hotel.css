@@ -1,0 +1,71 @@
+.roomContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.roomWrapper{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+}
+
+.roomDetails{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.roomDetailsTexts{
+    flex: 3;
+}
+
+.roomDesc{
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.roomDetailsPrice{
+    flex:1;
+    background-color: pink;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.roomDetailsPrice>h2{
+    font-weight: 300;
+}
+.roomDetailsPrice>button{
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    background-color: red;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.roomTitle{
+    font-size: 24px;
+}
+
+.roomImgWrapper{
+    width: 33%;
+}
+
+.roomImg{
+    width: 100%;
+    object-fit: cover;
+}
+
+.roomImages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+}
