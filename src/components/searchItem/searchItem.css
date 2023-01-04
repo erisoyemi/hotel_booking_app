@@ -29,7 +29,7 @@
 }
 .siTitle{
     font-size: 25px;
-    color: red;
+    color: black;
 }
 
 .siDetailTexts{
@@ -49,7 +49,7 @@
 }
 
 .siCheckButton{
-    background-color: red;
+    background-color: black;
     color: white;
     font-weight: bold;
     padding: 10px 5px;

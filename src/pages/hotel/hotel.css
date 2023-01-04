@@ -10,7 +10,6 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    position: relative;
 }
 
 .roomDetails{
@@ -30,12 +29,13 @@
 }
 
 .roomDetailsPrice{
-    flex:1;
-    background-color: pink;
+    flex: 1;
+    background-color: lightgray;
     padding: 20px;
     display: flex;
     flex-direction: column;
     gap: 20px;
+    border-radius: 10px;
 }
 
 .roomDetailsPrice>h2{
@@ -45,8 +45,8 @@
     font-weight: bold;
     border: none;
     padding: 10px 20px;
-    background-color: red;
-    color: black;
+    background-color: black;
+    color: white;
     cursor: pointer;
     border-radius: 5px;
 }
@@ -62,6 +62,7 @@
 .roomImg{
     width: 100%;
     object-fit: cover;
+    height: 200px;
 }
 
 .roomImages{
@@ -69,3 +70,28 @@
     flex-wrap: wrap;
     justify-content: space-between ;
 }
+/*
+.slider{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.426);
+    display: flex;
+    align-items: center;
+
+}
+
+.sliderWrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sliderImg{
+    width: 80%;
+}*/
